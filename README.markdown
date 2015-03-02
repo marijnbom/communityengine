@@ -70,7 +70,7 @@ This is where you can change commonly used configuration variables, like `config
 OmniAuth Configuration
 ----------------------
 
-You can allow users to sign up and log in using their accounts from other social networks (like Facbeook, Twitter, LinkedIn, etc.). To do so, just add an initializer in your app's `config/initializers` directory called `omniauth.rb` and add the following lines:
+You can allow users to sign up and log in using their accounts from other social networks (like Facebook, Twitter, LinkedIn, etc.). To do so, just add an initializer in your app's `config/initializers` directory called `omniauth.rb` and add the following lines:
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
